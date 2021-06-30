@@ -4,7 +4,7 @@
 public class InputHandler : MonoBehaviour
 {
     private Input _input;
-    [SerializeField] private Movement _movement;
+    [SerializeField] private PlaneMovement _movement;
 
     private void Start()
     {

@@ -5,22 +5,31 @@ using static UnityEngine.Vector3;
 public class Bridge : MonoBehaviour
 {
     [SerializeField] private GameObject _blockPrefab;
+    [SerializeField] [Range(0,30)] private int _blockMaxCount;
 
     private Transform _bridgeBuilder;
+    private int _blockCount;
 
     private void Start()
     {
         _bridgeBuilder = GetComponent<Transform>();
+        _blockCount = 0;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Backpack backpack;
-        if (other.gameObject.TryGetComponent(out backpack) && !backpack.IsEmpty())
+        if (CanTake(other, out backpack))
         {
             GameObject brick = backpack.TakeObject();
             BuildBlock(brick);
+            _blockCount++;
         }
+    }
+
+    private bool CanTake(Collider other, out Backpack backpack)
+    {
+        return other.gameObject.TryGetComponent(out backpack) && !backpack.IsEmpty() && _blockCount < _blockMaxCount;
     }
 
     private void BuildBlock(GameObject buildObject)
@@ -30,7 +39,7 @@ public class Bridge : MonoBehaviour
         _bridgeBuilder.position += _bridgeBuilder.forward * _blockPrefab.transform.localScale.z + up * 0.45f;
 
         block.GetComponent<MeshRenderer>().material.color = color;
-        block.AddComponent<ReplaceBlock>().Init(_blockPrefab);
+        block.AddComponent<ReplaceBlock>().Init();
 
         buildObject.transform.DOKill();
         Destroy(buildObject);

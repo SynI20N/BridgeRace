@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public struct PlaneMovement
+public struct Plane
 {
     public Vector3 Forward;
     public Vector3 Backward;

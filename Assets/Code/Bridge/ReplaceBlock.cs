@@ -1,17 +1,13 @@
 ﻿using DG.Tweening;
-using System;
 using UnityEngine;
 
 public class ReplaceBlock : MonoBehaviour
 {
-    private GameObject _blockPrefab;
     private GameObject _thisBlock;
-
     private Color _blockColor;
 
-    public void Init(GameObject blockPrefab)
+    public void Init()
     {
-        _blockPrefab = blockPrefab;
         _thisBlock = gameObject;
 
         _blockColor = _thisBlock.GetComponent<MeshRenderer>().material.color;
@@ -27,7 +23,7 @@ public class ReplaceBlock : MonoBehaviour
             if (!color.Equals(_blockColor))
             {
                 Recolor(color);
-                Replace(buildObject);
+                Spend(buildObject);
             }
             else
             {
@@ -39,17 +35,13 @@ public class ReplaceBlock : MonoBehaviour
     private void Recolor(Color color)
     {
         _blockColor = color;
+
+        _thisBlock.GetComponent<MeshRenderer>().material.color = _blockColor;
     }
 
-    private void Replace(GameObject buildObject)
+    private void Spend(GameObject consumable)
     {
-        GameObject block = Instantiate(_blockPrefab, _thisBlock.transform.position, Quaternion.identity);
-        block.AddComponent<ReplaceBlock>();
-        Destroy(_thisBlock);
-        _thisBlock = block;
-        _thisBlock.GetComponent<MeshRenderer>().material.color = _blockColor;
-
-        buildObject.transform.DOKill();
-        Destroy(buildObject);
+        consumable.transform.DOKill();
+        Destroy(consumable);
     }
 }

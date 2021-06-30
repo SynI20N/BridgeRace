@@ -68,7 +68,7 @@
     <Compile Include="Assets\Code\Bridge\Bridge.cs" />
     <Compile Include="Assets\Code\Bridge\ReplaceBlock.cs" />
     <Compile Include="Assets\Code\Character\Backpack.cs" />
-    <Compile Include="Assets\Code\Character\Movement.cs" />
+    <Compile Include="Assets\Code\Character\PlaneMovement.cs" />
     <Compile Include="Assets\Code\Character\TPCamera.cs" />
     <Compile Include="Assets\Code\Extensions.cs" />
     <Compile Include="Assets\Code\Input\Input.cs" />

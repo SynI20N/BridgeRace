@@ -6,7 +6,7 @@ ScriptsOnlyBuild:
     - Bridge
     - Input
     - InputHandler
-    - Movement
+    - PlaneMovement
     - TPCamera
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
@@ -66,21 +66,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10764}
+      Script: {instanceID: 10228}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10776}
+      Script: {instanceID: 10790}
     - Class: 114
-      Script: {instanceID: 11430}
+      Script: {instanceID: 10796}
     - Class: 114
-      Script: {instanceID: 45696}
+      Script: {instanceID: 10802}
     - Class: 114
-      Script: {instanceID: 66882}
+      Script: {instanceID: 10860}
     - Class: 114
-      Script: {instanceID: 78030}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 105734}
+      Script: {instanceID: 12072}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -268,6 +268,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 11d774245b9c002683a1b708d6a97f29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Backpack
+  - hash:
+      serializedVersion: 2
       Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
@@ -308,6 +314,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b3e30f0274e9dd9cc5a7b2e75ff6a312
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bridge
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -382,7 +394,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: fdab3a85019151ca97c106ad86f19c7d
+      Hash: 29188b57fb09ec7e8c47ca530e090bc2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputHandler
@@ -397,7 +409,7 @@ ScriptsOnlyBuild:
       Hash: 3cf156985df62fac63708d6bed3583bf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Movement
+    className: PlaneMovement
   - hash:
       serializedVersion: 2
       Hash: bfeb96683d3796cadaab890bfdfe92be
@@ -410,6 +422,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 179648033371456981a3c08cb9f47477
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -611,6 +635,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReplaceBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
@@ -688,6 +718,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: a4dba8950657232deb75e25439651b55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BrickSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.EnhancedTouch
@@ -698,42 +734,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 704dcd31abc789439bc3f3cd10b58c2b
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 179648033371456981a3c08cb9f47477
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenSettings
-  - hash:
-      serializedVersion: 2
-      Hash: a4dba8950657232deb75e25439651b55
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BrickSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: 11d774245b9c002683a1b708d6a97f29
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Backpack
-  - hash:
-      serializedVersion: 2
-      Hash: b3e30f0274e9dd9cc5a7b2e75ff6a312
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Bridge
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReplaceBlock
   platform: 13
   scenePathNames:
   - Assets/Scenes/Bridge.unity

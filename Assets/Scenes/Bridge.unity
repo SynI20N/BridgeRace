@@ -135,12 +135,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14
+      value: 9.12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.88
+      value: 27.63
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
@@ -241,7 +241,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232766921}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab6993dbc6a29534394d04f7d423e157, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -323,15 +323,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 420447064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bc59126f555fe4ebac6dbfedfee5fd, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a983efe0fb28c45b65744c1d0d4f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _brickPrefab: {fileID: 1037956072}
-  _spawner: {fileID: 0}
-  _collider: {fileID: 0}
-  _bricks: []
-  _spawnHeight: 0
-  _timer: 0
 --- !u!64 &420447066
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -475,15 +470,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 442161489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bc59126f555fe4ebac6dbfedfee5fd, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a983efe0fb28c45b65744c1d0d4f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _brickPrefab: {fileID: 1037956072}
-  _spawner: {fileID: 0}
-  _collider: {fileID: 0}
-  _bricks: []
-  _spawnHeight: 0
-  _timer: 0
 --- !u!114 &442161495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,15 +483,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 442161489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54bc59126f555fe4ebac6dbfedfee5fd, type: 3}
+  m_Script: {fileID: 11500000, guid: a4a983efe0fb28c45b65744c1d0d4f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _brickPrefab: {fileID: 1378744742}
-  _spawner: {fileID: 0}
-  _collider: {fileID: 0}
-  _bricks: []
-  _spawnHeight: 0
-  _timer: 0
 --- !u!1 &456857591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100120, guid: 5917c0e93d180a842b61d1ebc62a195c,
@@ -789,7 +774,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853833661}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab6993dbc6a29534394d04f7d423e157, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -870,12 +855,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.56
+      value: -6.32
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.88
+      value: 28.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0f9978a5c55082444931a062b58bf4e3,
         type: 3}
@@ -1081,7 +1066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 400120, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1176,7 +1161,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014946611}
-  m_Material: {fileID: 13400000, guid: 9ad25858779b87c45b91243cb7b5db4f, type: 2}
+  m_Material: {fileID: 13400000, guid: ab6993dbc6a29534394d04f7d423e157, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1367,11 +1352,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360094340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abda607333b7c1147b07ca2b0754c9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: e4aeac0591e94b84ca56e39979b92e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _blockPrefab: {fileID: 232766921}
-  _bridgeBuilder: {fileID: 0}
+  _blockMaxCount: 20
 --- !u!65 &1360094344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1393,7 +1378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360094340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 0.203, z: 5.45}
+  m_LocalPosition: {x: -0.96, y: 0.203, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1564,9 +1549,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1506672015}
   - component: {fileID: 1506672014}
-  - component: {fileID: 1506672013}
   - component: {fileID: 1506672012}
   - component: {fileID: 1506672011}
+  - component: {fileID: 1506672013}
   m_Layer: 0
   m_Name: Bridge2 (1)
   m_TagString: Untagged
@@ -1629,11 +1614,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1506672010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abda607333b7c1147b07ca2b0754c9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: e4aeac0591e94b84ca56e39979b92e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _blockPrefab: {fileID: 232766921}
-  _bridgeBuilder: {fileID: 0}
+  _blockMaxCount: 20
 --- !u!65 &1506672014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1655,7 +1640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506672010}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.42, y: 14.14, z: 36.68}
+  m_LocalPosition: {x: 5.42, y: 9.38, z: 27.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1790,11 +1775,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1738792238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abda607333b7c1147b07ca2b0754c9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: e4aeac0591e94b84ca56e39979b92e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _blockPrefab: {fileID: 232766921}
-  _bridgeBuilder: {fileID: 0}
+  _blockMaxCount: 20
 --- !u!65 &1738792240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1816,7 +1801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738792238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: 0.203, z: 5.45}
+  m_LocalPosition: {x: 1.24, y: 0.203, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1951,7 +1936,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936398844}
-  m_Material: {fileID: 13400000, guid: 9ad25858779b87c45b91243cb7b5db4f, type: 2}
+  m_Material: {fileID: 13400000, guid: ab6993dbc6a29534394d04f7d423e157, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
